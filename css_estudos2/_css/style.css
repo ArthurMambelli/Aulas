@@ -4,6 +4,13 @@
 
 hr{
     border: 10px solid black;
+    height: 0px;
+}
+
+.white{
+    border: 10px solid black;
+    color: white;
+    height: 1px;
 }
 
 h1{
