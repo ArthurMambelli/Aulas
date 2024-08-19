@@ -1,0 +1,23 @@
+body{
+    background-image: url("../_img/vegeta-centro.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#img1{
+    aspect-ratio: 1/1;
+    width: 20%;
+    border-radius: 50%;
+    border: 8px gold solid;
+}
+
+#img2{
+    width: 200px;
+    height: 150px;
+    align-content: right top;
+}
+
+h1{
+    color: blue;
+}
