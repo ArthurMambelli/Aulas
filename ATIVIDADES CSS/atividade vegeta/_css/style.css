@@ -15,7 +15,9 @@ body{
 #img2{
     width: 200px;
     height: 150px;
-    align-content: right top;
+    position: relative;
+    left: 800px;
+    bottom: 200px;
 }
 
 h1{
