@@ -1,0 +1,63 @@
+*{
+    text-align: center;
+}
+
+hr{
+    border: 10px solid black;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+#salmon{
+    color: salmon;
+}
+
+#backclr{
+    background-color: lightskyblue;
+}
+
+#color{
+    color: magenta;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#borda{
+    border: solid #808000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+u{
+    font-size: 50px;
+}
+
+#format{
+    border: solid #808000;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: #418f62;
+    font-weight: lighter;
+}
+
+#grande{
+    font-size: 50px;
+    color: salmon;
+    background-color: blueviolet;
+    text-decoration: underline;
+    font-style: italic;
+}
