@@ -10,13 +10,14 @@ body {
 }
 
 .conteudo{
-    margin-left: 45vh;
+    margin-left: 43vh;
     header {
         display: flex;
         background-image: url(../img/background.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         height: 40vh;
+        border-radius: 5px;
         p {
             margin-top: 155px;
             margin-left: 30px;  
@@ -36,12 +37,13 @@ footer{
     justify-content: center;
     display: flex;
     align-items: center;
-    width: 78%;
+    width: 78.9%;
     background: linear-gradient(to right, rgb(240, 221, 96), rgb(240, 215, 72));
     font-size: 16px;
     bottom: 0%;
     height: 5vh;
     padding: 1px;
+    margin-left: 0px;
     position: absolute;
 }
 
@@ -54,6 +56,7 @@ aside{
     color: white;
     padding: 10px;
     position: fixed;
+    border-radius: 5px;
     img{
         width: 170px;
         aspect-ratio: 1/1;
