@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 59% 20%;
+    grid-template-rows: 10vh 80vh 5vh;
+    border: 1px solid black;
+    grid-template-areas: 
+        "header header header"
+        "aside1 main aside2"
+        "aside1 main aside2"
+        "footer footer footer";
+    gap: 1vh 1vh;
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside1 {
+    grid-area: aside1;
+}
+
+.aside2 {
+    grid-area: aside2;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.header, .aside1, .main, .aside2, .footer{
+    background-color: blue;
+}

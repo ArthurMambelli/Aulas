@@ -1,0 +1,120 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 10vh 13vh 65vh 10vh;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "aside main main"
+    "footer footer footer";   
+}
+
+.header {
+    grid-area: header;
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+    img {
+        margin-top: 1vh;
+        margin-left: 5vh;
+        float: left;
+        width: 200px;
+        height: 60px;
+    }
+    p {
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+}
+
+.nav {
+    grid-area: nav;
+}
+nav{
+    justify-content: center;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    label{
+        font-size: 22px;
+    }
+    input{
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.aside {
+    grid-area: aside;
+}
+aside {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    label{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    input{
+        padding: 15px;
+    }
+}
+
+.main {
+    grid-area: main;
+}
+main{
+    display: grid;
+    background-color: white;
+    grid-area: main;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6";
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    gap: 4vh 10vh;
+    img {
+        margin-top: 20px;
+        width: 450px;
+        height: 250px;
+    }
+}
+
+.footer {
+    background-color: #074a71;
+    grid-area: footer;
+}
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+button{
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
