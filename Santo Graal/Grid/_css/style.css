@@ -12,7 +12,6 @@
     grid-template-areas: 
         "header header header"
         "aside1 main aside2"
-        "aside1 main aside2"
         "footer footer footer";
     gap: 1vh 1vh;
     color: white;

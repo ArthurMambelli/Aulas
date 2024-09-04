@@ -7,7 +7,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 10vh 13vh 65vh 10vh;
+    grid-template-rows: 10vh 13vh 68vh 9vh;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -32,9 +32,23 @@ header{
         height: 60px;
     }
     p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
         margin-top: 3vh;
         font-size: 20px;
+        transition: all 0.3s;
     }
+
+    p:hover{
+        scale: 0.92;
+        cursor: pointer;
+    }
+}
+
+#pgf{
+    margin-left: 290px;
 }
 
 .nav {
@@ -89,6 +103,11 @@ main{
         margin-top: 20px;
         width: 450px;
         height: 250px;
+        transition: all 0.3s;
+    }
+    img:hover{
+        scale: 1.05;
+        cursor: pointer;
     }
 }
 
@@ -115,6 +134,7 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: #025c02;
 }
 
 
